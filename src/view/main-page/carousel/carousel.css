@@ -1,0 +1,47 @@
+.carousel {
+    padding: 6px 100px 41px 100px;
+}
+
+.carousel_frame {
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.carousel_line {
+    display: flex;
+    align-items: center;
+    position: relative;
+    left: 0%;
+    transition: all 1s;
+    gap: 90px;
+}
+
+.carousel_item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+
+    width: 300px;
+    height: 300px;
+
+    box-sizing: border-box;
+    border: 1px solid #000;
+    font-size: 40px;
+}
+
+.carousel_arrows {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 252px;
+
+    margin: 32px;
+}
+
+.carousel_arrow {
+    width: 100px;
+    height: 114px;
+
+    background-color: #a1f561;
+}
